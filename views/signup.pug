@@ -1,0 +1,17 @@
+html
+    head    
+        title Express App
+    body
+        h1 Sign up to Proceed
+
+        form(method='post' action='/signup')
+            label Enter Username :
+            input(type='text', name='username')
+            br
+            label Enter Email : 
+            input(type='email', name='email')
+            br
+            label Enter Password : 
+            input(type='password', name='password')
+            br
+            button(type='submit') Sign up

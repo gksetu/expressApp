@@ -1,0 +1,15 @@
+html
+    head    
+        title Express App
+    body
+        h1 Login to Proceed
+
+        form(method='POST' action='/login')
+            label Enter Username :
+            input(type='text', name='username')
+            br
+            label Enter Password : 
+            input(type='password', name='password')
+            br
+            button#login.btn.btn-primary(type='submit') Login
+            a(href="/register") New User Signup
